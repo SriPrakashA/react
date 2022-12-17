@@ -1,0 +1,63 @@
+.aayush-banner{
+    width: 100%;
+    height: 96vh;
+    position: relative;
+    overflow: hidden;
+    background-color: #f0f2f5;
+}
+.aayush-banner img{
+    width: 100%;
+    height:100%;
+    overflow: hidden;
+}
+.aayush-banner .prev-btn{
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    font-size: 25px;
+    padding: 10px 5px;
+    border: 0;
+    background-color: transparent;
+    opacity: 0.7;
+    cursor: pointer;
+}
+.aayush-banner .next-btn{
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    font-size: 25px;
+    padding: 10px 5px;
+    border: 0;
+    background-color: transparent;
+    opacity: 0.7;
+    cursor: pointer;
+}
+.aayush-banner .prev-btn:hover{
+    opacity: 1;
+}
+.aayush-banner .next-btn:hover{
+    opacity: 1;
+}
+.aayush-banner .next-btn,.prev-btn{
+    display: none;
+}
+.aayush-banner:hover .next-btn{
+    display: block;
+    transition: 0.5s;
+}
+.aayush-banner:hover .prev-btn{
+    display: block;
+}
+
+@media only screen and (max-width:1024px){
+    .aayush-banner{
+        width: 100%;
+        height: auto;
+    }
+    .aayush-banner img{
+        width: 100%;
+        height: auto;
+    }
+}
+
+

@@ -1,0 +1,67 @@
+.testimonals{
+    width: 100%;
+    padding: 40px 0;
+    background-color: #f0f2f5;
+}
+.testimonals .testimonals-head{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.testimonals .testimonals-head h2{
+    padding-top:25px ;
+    margin-bottom: 12px;
+    font-size: 30px;
+    color: #0251cf;
+}
+.testimonals .testimonals-head .empty{
+    width: 100px;
+    height: 3px;
+    background-color: #0251cf;
+}
+.testimonals .testimonals-contents{
+    margin-top: 50px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 0 60px; 
+}
+.testimonals .testimonals-contents .testimmonala-desc{
+    background-color: #fff;
+    /* border: 1px solid black; */
+    margin: 0 30px;
+    width: 300px;
+    text-align: center;
+    word-spacing: 2px;
+    padding: 15px;
+    transition: 0.5s;
+    margin-bottom: 20px;
+}
+.testimonals .testimonals-contents .testimmonala-desc:hover{
+    box-shadow: 0 0 5px #000;
+    cursor: pointer;
+}
+.testimonals .testimonals-contents .testimmonala-desc p{
+    font-size: 19px;
+    margin-bottom: 7px;
+    line-break: strict;
+    opacity: 0.8;
+}
+.testimonals .testimonals-contents .testimmonala-desc h3{
+    font-size: 25px;
+    color: #0251cf;
+}
+.sub-visit{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    padding: 20px 0;
+    
+}
+.sub-visit h3{
+    color:#5f5f5f ;
+}
